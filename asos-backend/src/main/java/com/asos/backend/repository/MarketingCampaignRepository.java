@@ -1,0 +1,9 @@
+package com.asos.backend.repository;
+
+import com.asos.backend.entity.MarketingCampaign;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+
+public interface MarketingCampaignRepository extends JpaRepository<MarketingCampaign, Long> {
+    List<MarketingCampaign> findByFounderIdOrderByCreatedAtDesc(Long founderId);
+}
