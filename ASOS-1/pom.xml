@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.1.0</version>
+		<version>3.5.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.asos.demo</groupId>
@@ -43,10 +43,7 @@
     <artifactId>jackson-databind</artifactId>
 </dependency>
 
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
+
     <!-- Spring Web -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -54,10 +51,7 @@
     </dependency>
 
     <!-- Spring MVC (Optional if using spring-boot-starter-web) -->
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-webmvc</artifactId>
-    </dependency>
+   
 
     <!-- Spring Data JPA -->
     <dependency>
