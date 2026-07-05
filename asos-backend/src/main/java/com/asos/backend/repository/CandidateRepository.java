@@ -1,9 +1,0 @@
-package com.asos.backend.repository;
-
-import com.asos.backend.entity.Candidate;
-import org.springframework.data.jpa.repository.JpaRepository;
-import java.util.List;
-
-public interface CandidateRepository extends JpaRepository<Candidate, Long> {
-    List<Candidate> findByJobPostingIdOrderByCreatedAtDesc(Long jobPostingId);
-}

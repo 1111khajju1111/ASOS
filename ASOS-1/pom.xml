@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>4.1.0</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.asos.demo</groupId>
+	<artifactId>ASOS-1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ASOS-1</name>
+	<description>An AI-native Operating System that acts as a startup&apos;s autonomous CEO, managing strategy, operations, finance, hiring, and growth while founders focus on innovation.</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+	<jjwt.version>0.12.6</jjwt.version>
+
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+	
+	<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-json</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+    <!-- Spring Web -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <!-- Spring MVC (Optional if using spring-boot-starter-web) -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-webmvc</artifactId>
+    </dependency>
+
+    <!-- Spring Data JPA -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+    <!-- JDBC -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-jdbc</artifactId>
+    </dependency>
+
+    <!-- Thymeleaf -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+
+    <!-- Thymeleaf + Spring Security -->
+   
+    <!-- Validation -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-validation</artifactId>
+    </dependency>
+
+    <!-- Web Services -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-webservices</artifactId>
+    </dependency>
+
+    <!-- PostgreSQL -->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <scope>runtime</scope>
+    </dependency>
+
+   
+    
+
+    <!-- BCrypt -->
+    <dependency>
+        <groupId>org.mindrot</groupId>
+        <artifactId>jbcrypt</artifactId>
+        <version>0.4</version>
+    </dependency>
+
+    <!-- DevTools -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-devtools</artifactId>
+        <scope>runtime</scope>
+        <optional>true</optional>
+    </dependency>
+
+    <!-- Testing -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+    </dependency>
+
+</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
